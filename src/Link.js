@@ -6,7 +6,7 @@ export default function Link() {
         className="link"
         href="https://github.com/ViktoriiaPavliukh/weather-react.git"
         target="_blank"
-        rel="noreferrer"
+        rel="noopener noreferrer"
         >Open-source code by Viktoriia Pavliukh</a
       >
     )

@@ -1,18 +1,15 @@
 import React from "react"
-// import Search from "./components/Search";
+import Weather from "./Weather";
 import Link from './Link';
 import './App.css';
 
 function App() {
   return (
-    <div className="Weather-App">
-      <header className="App-header">
-        <p>
-         Weather App
-        </p>
-        {/* <Search /> */}
-      </header>
-      <footer>
+    <div className="weather-app">
+      <main className="weather-main">
+        <Weather defaultCity="Kyiv" />
+      </main>
+      <footer className="weather-footer">
         <Link />
       </footer>
     </div>
