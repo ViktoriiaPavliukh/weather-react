@@ -21,30 +21,39 @@
   font-size: calc(10px + 2vmin);
   color: rgb(4, 4, 4);
 }
-
 .weather {
   width: 100%;
 }
-
 .weather-info {
   padding-top: 20px;
 }
-
 .weather-footer {
   padding-top: 20px;
 }
-
 .link {
   text-decoration: none;
   color: #000;
 }
-
 .temp-description {
   display: flex;
   justify-content: left;
   gap: 20px;
 }
-
 .descr-right {
   padding-top: 6px;
+}
+.weather-list {
+  list-style: none;
+}
+
+.weather-forecast {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.temp-min {
+  opacity: 0.6;
+  margin-left: 5px;
 }
