@@ -1,1 +1,1 @@
-https://viktoriiapavliukh.github.io/weather-react/public/index.html,
+https://viktoriiapavliukh.github.io/weather-react/public/index.html
