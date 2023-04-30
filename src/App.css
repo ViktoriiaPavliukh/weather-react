@@ -4,8 +4,8 @@
 
 .weather-app {
   background-color: #f1ebcb;
-  height: 90vh;
   display: flex;
+  height: 100vh;
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -30,30 +30,62 @@
 .weather-footer {
   padding-top: 20px;
 }
+
 .link {
+  display: flex;
   text-decoration: none;
   color: #000;
+  padding-bottom: 20px;
+  text-align: center;
+  /* align-self: center; */
 }
 .temp-description {
   display: flex;
   justify-content: left;
   gap: 20px;
 }
-.descr-right {
-  padding-top: 6px;
-}
 .weather-list {
   list-style: none;
 }
-
 .weather-forecast {
   display: flex;
-  justify-content: center;
+  width: 100%;
+  justify-content: space-evenly;
   align-items: center;
   text-align: center;
 }
-
 .temp-min {
   opacity: 0.6;
   margin-left: 5px;
+}
+ul {
+  padding-inline-start: 0;
+}
+.descr-right {
+  font-size: 50px;
+}
+
+.descr-left {
+  padding-top: 8px;
+}
+
+@media screen and (max-width: 800px) {
+
+  .weather-app {
+    background-color: white;
+  }
+  .weather-main {
+    width: 100%;
+  }
+}  
+
+@media screen and (max-width: 440px) {
+
+  .btn.btn-dark.w-100{
+    display: none;
+  }
+
+  .weather-forecast{
+    display: none;
+  }
 }
